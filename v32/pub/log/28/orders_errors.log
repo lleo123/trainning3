@@ -1,0 +1,56 @@
+2021/01/14 08:47:36 : orders_errors 1: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 4430, in order_import
+    'meta_value': convert['items']['total']
+TypeError: list indices must be integers or slices, not str
+
+2021/01/14 08:47:38 : orders_errors 2: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 4430, in order_import
+    'meta_value': convert['items']['total']
+TypeError: list indices must be integers or slices, not str
+
+2021/01/14 08:47:39 : orders_errors 3: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 4430, in order_import
+    'meta_value': convert['items']['total']
+TypeError: list indices must be integers or slices, not str
+
+2021/01/14 08:47:40 : orders_errors 4: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 4430, in order_import
+    'meta_value': convert['items']['total']
+TypeError: list indices must be integers or slices, not str
+
+2021/01/14 08:47:41 : orders_errors 5: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 4430, in order_import
+    'meta_value': convert['items']['total']
+TypeError: list indices must be integers or slices, not str
+
+2021/01/14 08:47:44 : orders_errors 6: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 4430, in order_import
+    'meta_value': convert['items']['total']
+TypeError: list indices must be integers or slices, not str
+
+2021/01/14 08:47:46 : orders_errors 7: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 4430, in order_import
+    'meta_value': convert['items']['total']
+TypeError: list indices must be integers or slices, not str
+
+2021/01/14 08:47:47 : orders_errors 8: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 4430, in order_import
+    'meta_value': convert['items']['total']
+TypeError: list indices must be integers or slices, not str
+

@@ -1,0 +1,48 @@
+2021/01/14 09:30:20 : Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 348, in setup_cart
+    setup_source = self.setup_source(data)
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 276, in setup_source
+    cart_url = getattr(self.get_source_cart(), 'format_url')(request['src_cart_url'])
+  File "/home/hoang/Desktop/v32/cartmigration/libs/base_controller.py", line 93, in get_source_cart
+    self.source_cart = get_model(cart_name)
+  File "/home/hoang/Desktop/v32/cartmigration/libs/utils.py", line 97, in get_model
+    module_class = importlib.import_module(model_name)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/custom.py", line 1302
+    def get_order_id_import(self, convert, order, orders_ext):
+    ^
+IndentationError: unexpected indent
+
+2021/01/16 11:20:53 : Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 348, in setup_cart
+    setup_source = self.setup_source(data)
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 276, in setup_source
+    cart_url = getattr(self.get_source_cart(), 'format_url')(request['src_cart_url'])
+  File "/home/hoang/Desktop/v32/cartmigration/libs/base_controller.py", line 93, in get_source_cart
+    self.source_cart = get_model(cart_name)
+  File "/home/hoang/Desktop/v32/cartmigration/libs/utils.py", line 97, in get_model
+    module_class = importlib.import_module(model_name)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/custom.py", line 492
+    }
+    ^
+SyntaxError: invalid syntax
+

@@ -1,0 +1,56 @@
+2021/01/14 14:01:00 : orders_errors 1: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 4778, in order_import
+    'product_qty': convert['items']['qty'],
+TypeError: list indices must be integers or slices, not str
+
+2021/01/14 14:01:08 : orders_errors 2: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 4774, in order_import
+    'product_id': product_id,
+UnboundLocalError: local variable 'product_id' referenced before assignment
+
+2021/01/14 14:01:17 : orders_errors 3: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 4774, in order_import
+    'product_id': product_id,
+UnboundLocalError: local variable 'product_id' referenced before assignment
+
+2021/01/14 14:01:27 : orders_errors 4: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 4774, in order_import
+    'product_id': product_id,
+UnboundLocalError: local variable 'product_id' referenced before assignment
+
+2021/01/14 14:01:46 : orders_errors 5: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 4774, in order_import
+    'product_id': product_id,
+UnboundLocalError: local variable 'product_id' referenced before assignment
+
+2021/01/14 14:01:55 : orders_errors 6: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 4774, in order_import
+    'product_id': product_id,
+UnboundLocalError: local variable 'product_id' referenced before assignment
+
+2021/01/14 14:02:09 : orders_errors 7: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 4774, in order_import
+    'product_id': product_id,
+UnboundLocalError: local variable 'product_id' referenced before assignment
+
+2021/01/14 14:02:21 : orders_errors 8: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 4774, in order_import
+    'product_id': product_id,
+UnboundLocalError: local variable 'product_id' referenced before assignment
+

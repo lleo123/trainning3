@@ -1,0 +1,56 @@
+2021/01/15 12:05:40 : orders_errors 1: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/custom.py", line 1329, in convert_order_export
+    order_item['product']['id'] = order_product['orders_	products_id']
+KeyError: 'orders_\tproducts_id'
+
+2021/01/15 12:05:40 : orders_errors 2: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/custom.py", line 1329, in convert_order_export
+    order_item['product']['id'] = order_product['orders_	products_id']
+KeyError: 'orders_\tproducts_id'
+
+2021/01/15 12:05:40 : orders_errors 3: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/custom.py", line 1329, in convert_order_export
+    order_item['product']['id'] = order_product['orders_	products_id']
+KeyError: 'orders_\tproducts_id'
+
+2021/01/15 12:05:40 : orders_errors 4: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/custom.py", line 1329, in convert_order_export
+    order_item['product']['id'] = order_product['orders_	products_id']
+KeyError: 'orders_\tproducts_id'
+
+2021/01/15 12:05:46 : orders_errors 5: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/custom.py", line 1329, in convert_order_export
+    order_item['product']['id'] = order_product['orders_	products_id']
+KeyError: 'orders_\tproducts_id'
+
+2021/01/15 12:05:46 : orders_errors 6: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/custom.py", line 1329, in convert_order_export
+    order_item['product']['id'] = order_product['orders_	products_id']
+KeyError: 'orders_\tproducts_id'
+
+2021/01/15 12:05:46 : orders_errors 7: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/custom.py", line 1329, in convert_order_export
+    order_item['product']['id'] = order_product['orders_	products_id']
+KeyError: 'orders_\tproducts_id'
+
+2021/01/15 12:05:46 : orders_errors 8: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/custom.py", line 1329, in convert_order_export
+    order_item['product']['id'] = order_product['orders_	products_id']
+KeyError: 'orders_\tproducts_id'
+

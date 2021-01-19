@@ -1,0 +1,149 @@
+2021/01/12 17:11:03 : Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 665, in storage_data
+    getattr(self.get_source_cart(), 'finish_storage_data')()
+  File "/home/hoang/Desktop/v32/cartmigration/models/basecart.py", line 3929, in finish_storage_data
+    folder_upload = self.get_folder_upload(self._migration_id)
+  File "/home/hoang/Desktop/v32/cartmigration/models/basecart.py", line 3941, in get_folder_upload
+    folder_upload = root_path + '/' + DIR_UPLOAD + '/' + get_config_ini('src', 'file', file = 'test.ini')
+TypeError: must be str, not NoneType
+
+2021/01/12 17:11:11 : categories_errors 2: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 2307, in category_import
+    self.insert_map(self.TYPE_CATEGORY, convert['id'], term_taxonomy_id, convert['code'])
+NameError: name 'term_taxonomy_id' is not defined
+
+2021/01/12 17:11:12 : categories_errors 3: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 2307, in category_import
+    self.insert_map(self.TYPE_CATEGORY, convert['id'], term_taxonomy_id, convert['code'])
+NameError: name 'term_taxonomy_id' is not defined
+
+2021/01/12 17:11:13 : categories_errors 4: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 2307, in category_import
+    self.insert_map(self.TYPE_CATEGORY, convert['id'], term_taxonomy_id, convert['code'])
+NameError: name 'term_taxonomy_id' is not defined
+
+2021/01/12 17:11:15 : categories_errors 5: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 2307, in category_import
+    self.insert_map(self.TYPE_CATEGORY, convert['id'], term_taxonomy_id, convert['code'])
+NameError: name 'term_taxonomy_id' is not defined
+
+2021/01/12 17:11:18 : categories_errors 6: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 2307, in category_import
+    self.insert_map(self.TYPE_CATEGORY, convert['id'], term_taxonomy_id, convert['code'])
+NameError: name 'term_taxonomy_id' is not defined
+
+2021/01/12 17:11:19 : categories_errors 7: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 2307, in category_import
+    self.insert_map(self.TYPE_CATEGORY, convert['id'], term_taxonomy_id, convert['code'])
+NameError: name 'term_taxonomy_id' is not defined
+
+2021/01/12 17:11:20 : categories_errors 8: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 2307, in category_import
+    self.insert_map(self.TYPE_CATEGORY, convert['id'], term_taxonomy_id, convert['code'])
+NameError: name 'term_taxonomy_id' is not defined
+
+2021/01/12 17:11:20 : categories_errors 9: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 2307, in category_import
+    self.insert_map(self.TYPE_CATEGORY, convert['id'], term_taxonomy_id, convert['code'])
+NameError: name 'term_taxonomy_id' is not defined
+
+2021/01/12 17:11:24 : categories_errors 10: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 2307, in category_import
+    self.insert_map(self.TYPE_CATEGORY, convert['id'], term_taxonomy_id, convert['code'])
+NameError: name 'term_taxonomy_id' is not defined
+
+2021/01/12 17:11:25 : categories_errors 11: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 2307, in category_import
+    self.insert_map(self.TYPE_CATEGORY, convert['id'], term_taxonomy_id, convert['code'])
+NameError: name 'term_taxonomy_id' is not defined
+
+2021/01/12 17:11:26 : categories_errors 12: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 2307, in category_import
+    self.insert_map(self.TYPE_CATEGORY, convert['id'], term_taxonomy_id, convert['code'])
+NameError: name 'term_taxonomy_id' is not defined
+
+2021/01/12 17:11:27 : categories_errors 13: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 2307, in category_import
+    self.insert_map(self.TYPE_CATEGORY, convert['id'], term_taxonomy_id, convert['code'])
+NameError: name 'term_taxonomy_id' is not defined
+
+2021/01/12 17:11:29 : categories_errors 14: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 2307, in category_import
+    self.insert_map(self.TYPE_CATEGORY, convert['id'], term_taxonomy_id, convert['code'])
+NameError: name 'term_taxonomy_id' is not defined
+
+2021/01/12 17:11:30 : categories_errors 15: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 2307, in category_import
+    self.insert_map(self.TYPE_CATEGORY, convert['id'], term_taxonomy_id, convert['code'])
+NameError: name 'term_taxonomy_id' is not defined
+
+2021/01/12 17:11:31 : categories_errors 16: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 2307, in category_import
+    self.insert_map(self.TYPE_CATEGORY, convert['id'], term_taxonomy_id, convert['code'])
+NameError: name 'term_taxonomy_id' is not defined
+
+2021/01/12 17:11:31 : categories_errors 17: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 2307, in category_import
+    self.insert_map(self.TYPE_CATEGORY, convert['id'], term_taxonomy_id, convert['code'])
+NameError: name 'term_taxonomy_id' is not defined
+
+2021/01/12 17:11:32 : categories_errors 19: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 2307, in category_import
+    self.insert_map(self.TYPE_CATEGORY, convert['id'], term_taxonomy_id, convert['code'])
+NameError: name 'term_taxonomy_id' is not defined
+
+2021/01/12 17:11:32 : categories_errors 20: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 2307, in category_import
+    self.insert_map(self.TYPE_CATEGORY, convert['id'], term_taxonomy_id, convert['code'])
+NameError: name 'term_taxonomy_id' is not defined
+
+2021/01/12 17:11:33 : categories_errors 22: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 2307, in category_import
+    self.insert_map(self.TYPE_CATEGORY, convert['id'], term_taxonomy_id, convert['code'])
+NameError: name 'term_taxonomy_id' is not defined
+
+2021/01/12 17:11:34 : categories_errors 23: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 2307, in category_import
+    self.insert_map(self.TYPE_CATEGORY, convert['id'], term_taxonomy_id, convert['code'])
+NameError: name 'term_taxonomy_id' is not defined
+

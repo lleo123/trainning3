@@ -1,0 +1,14 @@
+2021/01/13 09:13:32 : customers_errors 1: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 3787, in customer_import
+    'user_nicename': convert['user_name'],
+KeyError: 'user_name'
+
+2021/01/13 09:13:32 : customers_errors 3: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/home/hoang/Desktop/v32/cartmigration/models/cart/woocommerce.py", line 3787, in customer_import
+    'user_nicename': convert['user_name'],
+KeyError: 'user_name'
+

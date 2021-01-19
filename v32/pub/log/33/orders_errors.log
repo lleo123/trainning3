@@ -1,0 +1,40 @@
+2021/01/14 09:42:00 : orders_errors 1: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1037, in migration
+    if convert['result'] == 'skip':
+KeyError: 'result'
+
+2021/01/14 09:42:00 : orders_errors 2: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1037, in migration
+    if convert['result'] == 'skip':
+KeyError: 'result'
+
+2021/01/14 09:42:00 : orders_errors 3: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1037, in migration
+    if convert['result'] == 'skip':
+KeyError: 'result'
+
+2021/01/14 09:42:00 : orders_errors 4: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1037, in migration
+    if convert['result'] == 'skip':
+KeyError: 'result'
+
+2021/01/14 09:42:01 : orders_errors 5: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1037, in migration
+    if convert['result'] == 'skip':
+KeyError: 'result'
+
+2021/01/14 09:42:01 : orders_errors 6: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1037, in migration
+    if convert['result'] == 'skip':
+KeyError: 'result'
+
+2021/01/14 09:42:01 : orders_errors 7: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1037, in migration
+    if convert['result'] == 'skip':
+KeyError: 'result'
+
+2021/01/14 09:42:01 : orders_errors 8: Traceback (most recent call last):
+  File "/home/hoang/Desktop/v32/cartmigration/controllers/migration.py", line 1037, in migration
+    if convert['result'] == 'skip':
+KeyError: 'result'
+

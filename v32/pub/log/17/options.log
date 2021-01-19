@@ -1,0 +1,1 @@
+2021/01/13 12:40:46 : Options : INSERT INTO `_DBPRF_options` (`option_name`, `option_value`, `autoload`) VALUES ('urlrewrite_type', 'url301', 'yes'): <span class="message-alert-error">SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'urlrewrite_type' for key 'option_name'</span>
